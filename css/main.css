@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;;
+}
+#tophead {
+    background-color: black;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0px auto;
+}
+.topleft{
+    display: flex;
+    align-self: center;
+}
+.topleft .p1 {
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+.topright ul{
+    display: flex;
+    padding-left: 0px;
+}
+.topright ul li {
+    list-style-type: none;
+}
+.topright ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+.topright ul li a i {
+    font-size: 20px;
+}
+.topright ul li a i:hover{
+    color: #ff9d34;
+    transition: 1s all;
+}
+.subhead {
+    display: flex;
+    justify-content: space-between;
+}
+#navhead {
+    background-color: #014073;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    text-decoration: none;
+}
+.logo a .logoneu {
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo a .logoneu span {
+    color: #ff9d34;
+}
+.navbar .navigation {
+    align-self: center;
+}
+.navbar .navigation ul{
+    display: flex;
+    padding-left: 0px;
+}
+.navbar .navigation ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.navbar .navigation ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+.navbar .navigation ul li a:hover {
+    color: #ff9d34;
+}
